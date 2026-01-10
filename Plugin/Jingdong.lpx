@@ -6,8 +6,8 @@
 #!system = 
 #!system_version = 
 #!loon_version = 3.3.7(921)
-#!homepage = https://github.com/sooyaaabo/Loon/blob/main/README.md
-#!icon = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/Jingdong.png
+#!homepage = https://github.com/misaka00251/Loon/blob/main/README.md
+#!icon = https://raw.githubusercontent.com/misaka00251/Loon/main/Icon/App-Icon/Jingdong.png
 #!date = 2025-12-16 20:00
 
 # 2025-05-13 15:17:08
@@ -36,7 +36,7 @@ URL-REGEX, "^http:\/\/\w{32}\.jddebug\.com\/diagnose\?", REJECT
 ^https:\/\/api\.m\.jd\.com\/\?loginType=11 reject-dict
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=getWidgetV1052 reject
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(?:searchBoxWord|stationPullService|uniformRecommend[06]) reject-dict
-^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising response-body-replace-regex jdLiteAdvertisingVO sooyaaabo
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising response-body-replace-regex jdLiteAdvertisingVO misaka00251
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=basicConfig response-body-json-replace data.JDMessage.socketmonitor.isSocketEstablishedAhead 0 data.JDMessage.socketmonitor.isSocketReport 0 data.JDHttpToolKit.httpdns.httpdns 0
 
 [Script]
@@ -44,7 +44,7 @@ URL-REGEX, "^http:\/\/\w{32}\.jddebug\.com\/diagnose\?", REJECT
 http-response ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(?:deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) script-path = https://kelee.one/Resource/JavaScript/JD/JD_remove_ads.js, requires-body = true, tag = [京东]移除广告
 
 # 京东极速版
-http-response ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/CommonScript/replace-body.js, argument = jdLiteAdvertisingVO -> sooyaaabo, requires-body = true, tag = [京东]移除京东极速版广告
+http-response ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising script-path = https://raw.githubusercontent.com/misaka00251/Loon/main/Script/CommonScript/replace-body.js, argument = jdLiteAdvertisingVO -> sooyaaabo, requires-body = true, tag = [京东]移除京东极速版广告
 
 # 京东比价
 http-request ^https?:\/\/apapia-sqk-weblogic\.manmanbuy\.com\/baoliao\/center\/menu$ script-path = https://raw.githubusercontent.com/mw418/Loon/main/script/jd_price.js, requires-body = true, timeout = 60, tag = [京东比价]获取慢慢买Cookie, enable={Manmanbuy-Cookie}
@@ -55,7 +55,7 @@ http-request ^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html script-pat
 
 http-response ^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html script-path = https://raw.githubusercontent.com/wf021325/qx/master/js/jd_price.js, requires-body = true, timeout = 60, tag = [京东比价]详情嵌入版（表格图）, enable={JDPrice-DetailEmbed-Table}
 
-http-response ^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/Jingdong/JD_Price.js, requires-body = true, timeout = 60, tag = [京东比价]详情嵌入版（折线图）, enable={JDPrice-DetailEmbed-Line}
+http-response ^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html script-path = https://raw.githubusercontent.com/misaka00251/Loon/main/Script/Jingdong/JD_Price.js, requires-body = true, timeout = 60, tag = [京东比价]详情嵌入版（折线图）, enable={JDPrice-DetailEmbed-Line}
 
 [MitM]
 hostname = api.m.jd.com, in.m.jd.com, apapia-sqk-weblogic.manmanbuy.com, m.360buyimg.com

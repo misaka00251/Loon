@@ -6,8 +6,8 @@
 #!system = 
 #!system_version = 
 #!loon_version = 3.3.7(921)
-#!homepage = https://github.com/sooyaaabo/Loon/blob/main/README.md
-#!icon = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/TestFlight-04.png
+#!homepage = https://github.com/misaka00251/Loon/blob/main/README.md
+#!icon = https://raw.githubusercontent.com/misaka00251/Loon/main/Icon/App-Icon/TestFlight-04.png
 #!input = TestFlight_APP_ID
 #!date = 2025-12-16 20:00
 
@@ -22,11 +22,11 @@ MonitorCron = input, "0 * * * * ?", tag = 监控TestFlight定时参数, desc = �
 DOMAIN, testflight.apple.com, PROXY
 
 [Script]
-http-request ^https?:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/apps$ script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/TestFlight/AutoJoinTFKeys.js, tag = 获取账号令牌, enable = {CaptureAccountToken}
+http-request ^https?:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/apps$ script-path = https://raw.githubusercontent.com/misaka00251/Loon/main/Script/TestFlight/AutoJoinTFKeys.js, tag = 获取账号令牌, enable = {CaptureAccountToken}
 
-cron {JoinCron} script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/TestFlight/AutoJoinTF.js, tag = TestFlight自动加入, timeout = 600, enable = {RunJoin}
+cron {JoinCron} script-path = https://raw.githubusercontent.com/misaka00251/Loon/main/Script/TestFlight/AutoJoinTF.js, tag = TestFlight自动加入, timeout = 600, enable = {RunJoin}
 
-cron {MonitorCron} script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/TestFlight/AutoMonitorTF.js, tag = TestFlight自动监控, timeout = 30, enable = {RunMonitor}
+cron {MonitorCron} script-path = https://raw.githubusercontent.com/misaka00251/Loon/main/Script/TestFlight/AutoMonitorTF.js, tag = TestFlight自动监控, timeout = 30, enable = {RunMonitor}
 
 # [MitM]
 # hostname = testflight.apple.com

@@ -3,6 +3,7 @@
  * @description 监控 Apple 官方 RSS 中的系统更新
  * @platform Loon
  * @author sooyaaabo
+ * @author misaka00251
  */
 
 // 持久化键：用于记录已推送过的条目 GUID
@@ -13,16 +14,16 @@ const RSS_URL = 'https://developer.apple.com/news/releases/rss/releases.rss';
 
 // 各系统对应的 Bark 通知图标 URL
 const SYSTEM_ICONS = {
-  ios: 'https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/Other-Icon/iOS.png',
-  ipados: 'https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/Other-Icon/iPadOS.png',
-  macos: 'https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/Other-Icon/macOS.png',
-  tvos: 'https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/Other-Icon/tvOS.png',
-  watchos: 'https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/Other-Icon/watchOS.png',
-  visionos: 'https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/Other-Icon/visionOS.png'
+  ios: 'https://raw.githubusercontent.com/misaka00251/Loon/main/Icon/Other-Icon/iOS.png',
+  ipados: 'https://raw.githubusercontent.com/misaka00251/Loon/main/Icon/Other-Icon/iPadOS.png',
+  macos: 'https://raw.githubusercontent.com/misaka00251/Loon/main/Icon/Other-Icon/macOS.png',
+  tvos: 'https://raw.githubusercontent.com/misaka00251/Loon/main/Icon/Other-Icon/tvOS.png',
+  watchos: 'https://raw.githubusercontent.com/misaka00251/Loon/main/Icon/Other-Icon/watchOS.png',
+  visionos: 'https://raw.githubusercontent.com/misaka00251/Loon/main/Icon/Other-Icon/visionOS.png'
 };
 
 // 默认图标
-const DEFAULT_ICON = 'https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/Apple.png';
+const DEFAULT_ICON = 'https://raw.githubusercontent.com/misaka00251/Loon/main/Icon/App-Icon/Apple.png';
 
 /**
  * 从 RSS XML 文本中解析出 <item> 条目

@@ -1,13 +1,13 @@
 #!name = Cookie & Task
 #!desc = 自动完成每日签到任务，按需开启相应功能即可。\n具体使用方法请查看所引用脚本或插件内详细说明。
 #!openUrl = 
-#!author = FoKit[https://github.com/FoKit], Sliverkiss[https://github.com/Sliverkiss], GoodHolidays[https://github.com/GoodHolidays], ZenmoFeiShi[https://github.com/ZenmoFeiShi], NobyDa[https://github.com/NobyDa], ClydeTime[https://github.com/ClydeTime], sooyaaabo[https://github.com/sooyaaabo]
+#!author = FoKit[https://github.com/FoKit], Sliverkiss[https://github.com/Sliverkiss], GoodHolidays[https://github.com/GoodHolidays], ZenmoFeiShi[https://github.com/ZenmoFeiShi], NobyDa[https://github.com/NobyDa], ClydeTime[https://github.com/ClydeTime], sooyaaabo[https://github.com/sooyaaabo], misaka00251[https://github.com/misaka00251]
 #!tag = 定时任务
 #!system = 
 #!system_version = 
 #!loon_version = 3.3.7(921)
-#!homepage = https://github.com/sooyaaabo/Loon/blob/main/README.md
-#!icon = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/Notifyman.png
+#!homepage = https://github.com/misaka00251/Loon/blob/main/README.md
+#!icon = https://raw.githubusercontent.com/misaka00251/Loon/main/Icon/App-Icon/Notifyman.png
 #!date = 2025-12-16 20:00
 
 # 2024-05-18
@@ -65,16 +65,16 @@ http-request ^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token scri
 cron {Cron-alipan} script-path = https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, tag = [阿里云盘]每日签到Task, enable={Task-alipan}
 
 # 微博 - api.weibo.cn
-http-request ^https?:\/\/api\.weibo\.cn\/\d\/users\/show script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/CookieTask/WeiboCookieTask.js, tag = [微博]每日签到Token, enable={Cookie-weibo}
-cron {Cron-weibo} script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/CookieTask/WeiboCookieTask.js, tag = [微博]每日签到Task, enable={Task-weibo}
+http-request ^https?:\/\/api\.weibo\.cn\/\d\/users\/show script-path = https://raw.githubusercontent.com/misaka00251/Loon/main/Script/CookieTask/WeiboCookieTask.js, tag = [微博]每日签到Token, enable={Cookie-weibo}
+cron {Cron-weibo} script-path = https://raw.githubusercontent.com/misaka00251/Loon/main/Script/CookieTask/WeiboCookieTask.js, tag = [微博]每日签到Task, enable={Task-weibo}
 
 # Soul - increase-openapi.soulapp.cn
 #http-request ^https:\/\/increase-openapi\.soulapp\.cn\/increase\/sign\/userSign script-path = https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/SoulSing.js, tag = [Soul]每日金币签到Token, enable={Cookie-soul}
 #cron {Cron-soul} script-path = https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/SoulSing.js, tag = [Soul]每日金币签到Task, enable={Task-soul}
 
 # 爱奇艺 - passport.iqiyi.com
-# http-request ^https:\/\/passport\.iqiyi\.com\/apis\/user\/ script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/CookieTask/IQIYICookieTask.js, tag = [爱奇艺]每日会员签到Token, enable={Cookie-iqiyi}
-# cron {Cron-iqiyi} script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/CookieTask/IQIYICookieTask.js, tag = [爱奇艺]每日会员签到Task, enable={Task-iqiyi}
+# http-request ^https:\/\/passport\.iqiyi\.com\/apis\/user\/ script-path = https://raw.githubusercontent.com/misaka00251/Loon/main/Script/CookieTask/IQIYICookieTask.js, tag = [爱奇艺]每日会员签到Token, enable={Cookie-iqiyi}
+# cron {Cron-iqiyi} script-path = https://raw.githubusercontent.com/misaka00251/Loon/main/Script/CookieTask/IQIYICookieTask.js, tag = [爱奇艺]每日会员签到Task, enable={Task-iqiyi}
 
 # Bilibili - cm.bilibili.com, m.bilibili.com
 http-request ^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\? script-path = https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js, tag = [哔哩哔哩App]每日等级任务Token, enable={Cookie-bilibiliapp}

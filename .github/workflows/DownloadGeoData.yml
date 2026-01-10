@@ -19,7 +19,7 @@ jobs:
     - name: 验证目标存储库
       uses: actions/checkout@v4.2.2
       with:
-        repository: sooyaaabo/Loon
+        repository: misaka00251/Loon
         path: Loon
 
 ###### Loon

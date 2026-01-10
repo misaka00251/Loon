@@ -1,13 +1,13 @@
 #!name = Turrit
 #!desc = Telegram外部链接跳转至Turrit
 #!openUrl = https://apps.apple.com/app/id6471781238
-#!author = sooyaaabo[https://github.com/sooyaaabo]
+#!author = sooyaaabo[https://github.com/sooyaaabo], misaka00251[https://github.com/misaka00251]
 #!tag = 功能增强
 #!system = 
 #!system_version = 
 #!loon_version = 3.3.7(921)
-#!homepage = https://github.com/sooyaaabo/Loon/blob/main/README.md
-#!icon = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/Turrit.png
+#!homepage = https://github.com/misaka00251/Loon/blob/main/README.md
+#!icon = https://raw.githubusercontent.com/misaka00251/Loon/main/Icon/App-Icon/Turrit.png
 #!date = 2025-12-16 20:00
 
 [Rewrite]

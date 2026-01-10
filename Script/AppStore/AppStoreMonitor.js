@@ -3,6 +3,7 @@
  * @description 监控指定 App Store 应用的多区域更新，支持自定义区域顺序，自动检测新增、更新及已移除的应用，并推送通知。
  * @platform Loon
  * @author sooyaaabo
+ * @author misaka00251
  */
 
 // --- 配置键 ---
@@ -21,7 +22,7 @@ const MONITORED_APPS_KEY = 'AppStore_Monitored_Apps';
 const CONCURRENCY = 5;
 
 // App Store 系统通知图标
-const APP_STORE_ICON_URL = "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/AppStore-01.png";
+const APP_STORE_ICON_URL = "https://raw.githubusercontent.com/misaka00251/Loon/main/Icon/App-Icon/AppStore-01.png";
 
 // --- 工具函数 ---
 function extractAppIds(rawArg) {

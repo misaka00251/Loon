@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          repository: sooyaaabo/Loon # 检出您的目标仓库
+          repository: misaka00251/Loon # 检出您的目标仓库
           path: Loon                 # 将其放入名为 Loon 的目录
 
       # --- Block 1: 处理 Cats-Team AdRules ---

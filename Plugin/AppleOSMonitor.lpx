@@ -1,12 +1,12 @@
 #!name = AppleOS Monitor
 #!desc = 定时监控Apple系统的版本更新。\n可自定义选择需要监控的设备系统。\n可输入多个OS版本，不填则默认所有OS版本，以逗号分隔。\n可选择版本类型，默认为all即所有版本。\n可填入Bark Key使用Bark推送通知，不填则默认使用Loon推送通知。
-#!author = sooyaaabo[https://github.com/sooyaaabo]
+#!author = sooyaaabo[https://github.com/sooyaaabo], misaka00251[https://github.com/misaka00251]
 #!tag = 功能增强, 定时任务
 #!system = 
 #!system_version = 
 #!loon_version = 3.3.7(921)
-#!homepage = https://github.com/sooyaaabo/Loon/blob/Loon/README.md
-#!icon = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/iBetame.png
+#!homepage = https://github.com/misaka00251/Loon/blob/Loon/README.md
+#!icon = https://raw.githubusercontent.com/misaka00251/Loon/main/Icon/App-Icon/iBetame.png
 #!date = 2025-12-16 20:00
 
 [Argument]
@@ -23,4 +23,4 @@ bark_key = input, "", tag = Bark Key, desc = 输入Bark Key以启用Bark通知
 bark_sound = select, "system", "alarm", "anticipate", "bell", "birdsong", "bloom", "calypso", "chime", "choo", "descent", "electronic", "fanfare", "glass", "gotosleep", "healthnotification", "horn", "ladder", "mailsent", "minuet", "multiwayinvitation", "newmail", "newsflash", "noir", "paymentsuccess", "shake", "sherwoodforest", "silence", "spell", "suspense", "telegraph", "tiptoes", "typewriters", "update", tag = Bark Sound, desc = 选择需要的Bark通知音效
 
 [Script]
-cron {RunCron} script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/AppleOS/AppleOSMonitor.js, tag = AppleOS Monitor, argument=[{enable_ios},{enable_ipados},{enable_macos},{enable_tvos},{enable_visionos},{enable_watchos},{system},{version},{bark_key},{bark_sound}]
+cron {RunCron} script-path = https://raw.githubusercontent.com/misaka00251/Loon/main/Script/AppleOS/AppleOSMonitor.js, tag = AppleOS Monitor, argument=[{enable_ios},{enable_ipados},{enable_macos},{enable_tvos},{enable_visionos},{enable_watchos},{system},{version},{bark_key},{bark_sound}]
