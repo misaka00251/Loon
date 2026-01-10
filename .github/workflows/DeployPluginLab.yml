@@ -39,7 +39,7 @@ jobs:
         with:
           commit_message: "Auto-update plugins.json [skip ci]"
           file_pattern: Plugin/plugins.json
-          branch: main         # ⭐ 强制明确推送到 main
+          branch: master         # ⭐ 强制明确推送到 master
           pull_before: true    # ⭐ 解决 non-fast-forward 错误
 
       # ---------------------
@@ -75,7 +75,7 @@ jobs:
         with:
           commit_message: "Auto-Sync Vercel WebFiles [skip ci]"
           file_pattern: vercel/**
-          branch: main         # ⭐ 一样指定 main
+          branch: master         # ⭐ 一样指定 master
           pull_before: true    # ⭐ 避免 push 被拒绝
 
   deploy:
