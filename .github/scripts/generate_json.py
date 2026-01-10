@@ -4,11 +4,11 @@ import json
 import urllib.parse
 
 # ---------------- 配置区域 ----------------
-GITHUB_USER = "sooyaaabo"
+GITHUB_USER = "misaka00251"
 GITHUB_REPO = "Loon"
 BRANCH = "main"     
 PLUGIN_DIR = "Plugin"  # 插件文件所在的文件夹名称
-PAGES_BASE = "https://sooyaaabo.github.io/Loon"
+PAGES_BASE = "https://misaka00251.github.io/Loon"
 # ----------------------------------------
 
 # 正则预编译
