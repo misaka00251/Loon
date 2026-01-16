@@ -2,14 +2,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-01-14 02:09:01
+# UPDATED: 2026-01-16 02:11:52
 # DOMAIN: 114
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32581
+# DOMAIN-SUFFIX: 32591
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 32893
+# TOTAL: 32903
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -8168,6 +8168,7 @@ DOMAIN-SUFFIX,dilber.se
 DOMAIN-SUFFIX,dilcdn.com
 DOMAIN-SUFFIX,dilstoncollege.ac.uk
 DOMAIN-SUFFIX,dingchin.com.tw
+DOMAIN-SUFFIX,dinopoloclub.com
 DOMAIN-SUFFIX,dinotube.com
 DOMAIN-SUFFIX,dipity.com
 DOMAIN-SUFFIX,dippam.ac.uk
@@ -19166,6 +19167,7 @@ DOMAIN-SUFFIX,mobileview.page
 DOMAIN-SUFFIX,mobilevrxxx.com
 DOMAIN-SUFFIX,mobileways.de
 DOMAIN-SUFFIX,mobilitymoodplace.ac.uk
+DOMAIN-SUFFIX,mobimon.com.tw
 DOMAIN-SUFFIX,mobmyanmar.com
 DOMAIN-SUFFIX,moby.to
 DOMAIN-SUFFIX,mobypicture.com
@@ -20703,9 +20705,12 @@ DOMAIN-SUFFIX,nikey.com
 DOMAIN-SUFFIX,nikezoom.com
 DOMAIN-SUFFIX,nikkan-gendai.com
 DOMAIN-SUFFIX,nikkansports.com
+DOMAIN-SUFFIX,nikke-de.com
 DOMAIN-SUFFIX,nikke-en.com
+DOMAIN-SUFFIX,nikke-fr.com
 DOMAIN-SUFFIX,nikke-jp.com
 DOMAIN-SUFFIX,nikke-kr.com
+DOMAIN-SUFFIX,nikke-sea.com
 DOMAIN-SUFFIX,nikkei-cnbc.co.jp
 DOMAIN-SUFFIX,nikkei.co.jp
 DOMAIN-SUFFIX,nikkei.com
@@ -20946,6 +20951,7 @@ DOMAIN-SUFFIX,nownews.com
 DOMAIN-SUFFIX,nowtorrents.com
 DOMAIN-SUFFIX,nox.ac.uk
 DOMAIN-SUFFIX,noxinfluencer.com
+DOMAIN-SUFFIX,noxygames.com
 DOMAIN-SUFFIX,noypf.com
 DOMAIN-SUFFIX,nozomi.la
 DOMAIN-SUFFIX,npa.go.jp
@@ -23844,6 +23850,8 @@ DOMAIN-SUFFIX,ravm.tv
 DOMAIN-SUFFIX,rawgit.com
 DOMAIN-SUFFIX,rawgithub.com
 DOMAIN-SUFFIX,raxcdn.com
+DOMAIN-SUFFIX,rayark.download
+DOMAIN-SUFFIX,rayark.net
 DOMAIN-SUFFIX,razer.com
 DOMAIN-SUFFIX,razerofficial.com
 DOMAIN-SUFFIX,razersupport.com
@@ -25627,6 +25635,8 @@ DOMAIN-SUFFIX,signalr.net
 DOMAIN-SUFFIX,signalusers.org
 DOMAIN-SUFFIX,sigops.org
 DOMAIN-SUFFIX,sigopt.com
+DOMAIN-SUFFIX,sih-db.com
+DOMAIN-SUFFIX,sih.app
 DOMAIN-SUFFIX,sihe.ac.uk
 DOMAIN-SUFFIX,sijihuisuo.club
 DOMAIN-SUFFIX,sijihuisuo.com
