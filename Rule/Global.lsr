@@ -2,14 +2,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-03-02 02:08:24
+# UPDATED: 2026-03-04 02:17:25
 # DOMAIN: 118
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32871
+# DOMAIN-SUFFIX: 32874
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 33187
+# TOTAL: 33190
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -16019,6 +16019,7 @@ DOMAIN-SUFFIX,jav.guru
 DOMAIN-SUFFIX,jav.la
 DOMAIN-SUFFIX,jav.land
 DOMAIN-SUFFIX,jav.place
+DOMAIN-SUFFIX,jav.sb
 DOMAIN-SUFFIX,jav.si
 DOMAIN-SUFFIX,jav.wine
 DOMAIN-SUFFIX,jav01.cc
@@ -16094,6 +16095,7 @@ DOMAIN-SUFFIX,javher.com
 DOMAIN-SUFFIX,javheroine.com
 DOMAIN-SUFFIX,javhihi.com
 DOMAIN-SUFFIX,javhip.com
+DOMAIN-SUFFIX,javhub.com
 DOMAIN-SUFFIX,javhub.me
 DOMAIN-SUFFIX,javhub.net
 DOMAIN-SUFFIX,javhuge.com
@@ -16133,6 +16135,7 @@ DOMAIN-SUFFIX,javprime.net
 DOMAIN-SUFFIX,javpub.me
 DOMAIN-SUFFIX,javpush.com
 DOMAIN-SUFFIX,javqd.com
+DOMAIN-SUFFIX,javquick.com
 DOMAIN-SUFFIX,javrank.com
 DOMAIN-SUFFIX,javrate.com
 DOMAIN-SUFFIX,javrave.club
