@@ -2,14 +2,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-03-28 02:20:43
+# UPDATED: 2026-03-30 02:12:09
 # DOMAIN: 119
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32950
+# DOMAIN-SUFFIX: 32949
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 33267
+# TOTAL: 33266
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -24846,7 +24846,6 @@ DOMAIN-SUFFIX,s-msn.com
 DOMAIN-SUFFIX,s-nbcnews.com
 DOMAIN-SUFFIX,s-rewards.hk
 DOMAIN-SUFFIX,s-xoom.com
-DOMAIN-SUFFIX,s.rmimg.com
 DOMAIN-SUFFIX,s.team
 DOMAIN-SUFFIX,s1heng.com
 DOMAIN-SUFFIX,s1s1s1.com
