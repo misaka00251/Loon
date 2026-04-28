@@ -2,14 +2,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-04-26 02:16:21
+# UPDATED: 2026-04-28 02:28:40
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 33749
+# DOMAIN-SUFFIX: 33751
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34071
+# TOTAL: 34073
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -14546,6 +14546,7 @@ DOMAIN-SUFFIX,hrntt.org
 DOMAIN-SUFFIX,hrsaz.com
 DOMAIN-SUFFIX,hrsfc.ac.uk
 DOMAIN-SUFFIX,hrtek.ru
+DOMAIN-SUFFIX,hrtsea.com
 DOMAIN-SUFFIX,hrw.org
 DOMAIN-SUFFIX,hrweb.org
 DOMAIN-SUFFIX,hsad.ac.uk
@@ -32569,6 +32570,7 @@ DOMAIN-SUFFIX,xtracloud.net
 DOMAIN-SUFFIX,xtube.com
 DOMAIN-SUFFIX,xtubebdsm.com
 DOMAIN-SUFFIX,xtubezoo.com
+DOMAIN-SUFFIX,xu97.vip
 DOMAIN-SUFFIX,xuchao.net
 DOMAIN-SUFFIX,xuchao.org
 DOMAIN-SUFFIX,xuehua.us
