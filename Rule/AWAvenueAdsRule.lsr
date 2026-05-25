@@ -2,7 +2,7 @@
 # Title: AWAvenue Ads Rule
 # Total lines: 911
 # Version: 1.6.9-release
-# Update time: 2026-04-07 20:55:56 UTC+8
+# Update time: 2026-05-24 22:11:11 UTC+8
 # Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 # License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
 DOMAIN, 1500020991.vodplayer.wxamedia.com
@@ -121,6 +121,7 @@ DOMAIN, adsfile.qq.com
 DOMAIN, adsfilebssdlbig.ali.kugou.com
 DOMAIN, adsfileretry.service.kugou.com
 DOMAIN, adsfs-sdkconfig.heytapimage.com
+DOMAIN, adsfs.heytapimage.com
 DOMAIN, adsfs.oppomobile.com
 DOMAIN, adslvfile.qq.com
 DOMAIN, adsmart.konka.com
@@ -339,7 +340,6 @@ DOMAIN, domain.aishengji.com
 DOMAIN, doubleclick-cn.net
 DOMAIN, download.changhong.upgrade2.huan.tv
 DOMAIN, downloadxml.changhong.upgrade2.huan.tv
-DOMAIN, drcn-weather.cloud.huawei.com
 DOMAIN, dsp-x.jd.com
 DOMAIN, dsp.fcbox.com
 DOMAIN, dualstack-logs.amap.com
