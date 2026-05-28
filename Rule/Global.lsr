@@ -2,14 +2,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-26 02:35:15
+# UPDATED: 2026-05-28 02:48:13
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34033
+# DOMAIN-SUFFIX: 34034
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34355
+# TOTAL: 34356
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -19368,6 +19368,7 @@ DOMAIN-SUFFIX,middlesex.ac.uk
 DOMAIN-SUFFIX,midentsolutions.com
 DOMAIN-SUFFIX,midfife.ac.uk
 DOMAIN-SUFFIX,midhurst.ac.uk
+DOMAIN-SUFFIX,midjourney.com
 DOMAIN-SUFFIX,midkent.ac.uk
 DOMAIN-SUFFIX,midlands3cities.ac.uk
 DOMAIN-SUFFIX,midlands4cities.ac.uk
