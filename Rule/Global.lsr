@@ -2,14 +2,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-07-02 02:43:41
+# UPDATED: 2026-07-04 02:32:58
 # DOMAIN: 125
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34509
+# DOMAIN-SUFFIX: 34520
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34832
+# TOTAL: 34843
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -4463,6 +4463,7 @@ DOMAIN-SUFFIX,blackstonespoliceservice.com
 DOMAIN-SUFFIX,blacktowhite.net
 DOMAIN-SUFFIX,blackvpn.com
 DOMAIN-SUFFIX,blake.ac.uk
+DOMAIN-SUFFIX,blanc.ru
 DOMAIN-SUFFIX,blaoshi.cc
 DOMAIN-SUFFIX,blast.io
 DOMAIN-SUFFIX,blazor.net
@@ -5204,6 +5205,7 @@ DOMAIN-SUFFIX,boswp.com
 DOMAIN-SUFFIX,bot.nu
 DOMAIN-SUFFIX,botanwang.com
 DOMAIN-SUFFIX,botframework.com
+DOMAIN-SUFFIX,botim.me
 DOMAIN-SUFFIX,botmechanic.io
 DOMAIN-SUFFIX,botorch.org
 DOMAIN-SUFFIX,botstop.com
@@ -7389,6 +7391,7 @@ DOMAIN-SUFFIX,coova.com
 DOMAIN-SUFFIX,coova.net
 DOMAIN-SUFFIX,coova.org
 DOMAIN-SUFFIX,copac.ac.uk
+DOMAIN-SUFFIX,copilot.com
 DOMAIN-SUFFIX,copim.ac.uk
 DOMAIN-SUFFIX,copior.ac.uk
 DOMAIN-SUFFIX,copro.pw
@@ -14549,6 +14552,9 @@ DOMAIN-SUFFIX,horizontal-llc.com
 DOMAIN-SUFFIX,horizontal-systems.com
 DOMAIN-SUFFIX,horizontalglue.com
 DOMAIN-SUFFIX,horizontalsystems.com
+DOMAIN-SUFFIX,hornet.com
+DOMAIN-SUFFIX,hornetapp.com
+DOMAIN-SUFFIX,hornetx.com
 DOMAIN-SUFFIX,horniman.ac.uk
 DOMAIN-SUFFIX,hornyasianmilfs.com
 DOMAIN-SUFFIX,hornybitches.org
@@ -18146,6 +18152,7 @@ DOMAIN-SUFFIX,listerpostgraduate.ac.uk
 DOMAIN-SUFFIX,listinganalytics.net
 DOMAIN-SUFFIX,listorious.com
 DOMAIN-SUFFIX,litbus-anime.com
+DOMAIN-SUFFIX,litecoin.org
 DOMAIN-SUFFIX,litenews.hk
 DOMAIN-SUFFIX,literatumonline.com
 DOMAIN-SUFFIX,literotica.com
@@ -21245,7 +21252,9 @@ DOMAIN-SUFFIX,netflixtechblog.com
 DOMAIN-SUFFIX,netlab.ac.uk
 DOMAIN-SUFFIX,netlify.app
 DOMAIN-SUFFIX,netlify.com
+DOMAIN-SUFFIX,netlifydns.com
 DOMAIN-SUFFIX,netlifystatus.com
+DOMAIN-SUFFIX,netlifyusercontent.com
 DOMAIN-SUFFIX,netlock.hu
 DOMAIN-SUFFIX,netmarble.com
 DOMAIN-SUFFIX,netme.cc
@@ -22045,6 +22054,7 @@ DOMAIN-SUFFIX,ntdvn.com
 DOMAIN-SUFFIX,ntec.ac.uk
 DOMAIN-SUFFIX,ntfs.ac.uk
 DOMAIN-SUFFIX,ntidagenham.ac.uk
+DOMAIN-SUFFIX,ntl.fyi
 DOMAIN-SUFFIX,ntnews.com.au
 DOMAIN-SUFFIX,ntp-os01.ocn.ad.jp
 DOMAIN-SUFFIX,ntp-tk01.ocn.ad.jp
@@ -32189,6 +32199,7 @@ DOMAIN-SUFFIX,webrtc.org
 DOMAIN-SUFFIX,webrush.net
 DOMAIN-SUFFIX,webs-tv.net
 DOMAIN-SUFFIX,websdr.org
+DOMAIN-SUFFIX,webshare.io
 DOMAIN-SUFFIX,website.new
 DOMAIN-SUFFIX,websitepulse.com
 DOMAIN-SUFFIX,websnapr.com
