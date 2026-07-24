@@ -2,14 +2,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-07-22 03:10:36
+# UPDATED: 2026-07-24 03:05:41
 # DOMAIN: 128
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34577
+# DOMAIN-SUFFIX: 34579
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34903
+# TOTAL: 34905
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -29647,6 +29647,7 @@ DOMAIN-SUFFIX,tohoku-bank.co.jp
 DOMAIN-SUFFIX,tok.media
 DOMAIN-SUFFIX,token.im
 DOMAIN-SUFFIX,tokenlon.im
+DOMAIN-SUFFIX,tokenplus.app
 DOMAIN-SUFFIX,tokyo-247.com
 DOMAIN-SUFFIX,tokyo-hot.com
 DOMAIN-SUFFIX,tokyo-porn-tube.com
@@ -34398,6 +34399,7 @@ DOMAIN-SUFFIX,zengjinyan.org
 DOMAIN-SUFFIX,zenit-card.ru
 DOMAIN-SUFFIX,zenit.ru
 DOMAIN-SUFFIX,zenmate.com
+DOMAIN-SUFFIX,zenmux.ai
 DOMAIN-SUFFIX,zenodo.org
 DOMAIN-SUFFIX,zeplerinstitute.ac.uk
 DOMAIN-SUFFIX,zeplin.dev
