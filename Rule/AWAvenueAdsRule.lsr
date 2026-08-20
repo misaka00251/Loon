@@ -1,8 +1,8 @@
 # 原始链接：https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list
 # Title: AWAvenue Ads Rule
-# Total lines: 903
+# Total lines: 902
 # Version: 1.7.6-release
-# Update time: 2026-07-27 01:45:52 UTC+8
+# Update time: 2026-08-20 11:45:33 UTC+8
 # Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 # License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
 DOMAIN, 1500020991.vodplayer.wxamedia.com
@@ -898,7 +898,6 @@ DOMAIN-SUFFIX, ad.gameley.com
 DOMAIN-SUFFIX, adintl.cn
 DOMAIN-SUFFIX, adx.adwangmai.com
 DOMAIN-SUFFIX, data.hicloud.com
-DOMAIN-SUFFIX, log.aliyuncs.com
 DOMAIN-SUFFIX, ubixioe.com
 DOMAIN-SUFFIX, vlion.cn
 DOMAIN-SUFFIX, yfanads.com
