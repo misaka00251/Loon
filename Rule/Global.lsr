@@ -2,14 +2,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-08-22 02:30:01
+# UPDATED: 2026-08-24 02:23:18
 # DOMAIN: 128
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34734
+# DOMAIN-SUFFIX: 34738
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 35060
+# TOTAL: 35064
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -5359,6 +5359,7 @@ DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,brewmp.com
 DOMAIN-SUFFIX,briantreepayments.net
 DOMAIN-SUFFIX,briantreepayments.tv
+DOMAIN-SUFFIX,briarproject.org
 DOMAIN-SUFFIX,bricoltech.ac.uk
 DOMAIN-SUFFIX,bridgce.ac.uk
 DOMAIN-SUFFIX,bridge-studio.co.uk
@@ -14431,6 +14432,7 @@ DOMAIN-SUFFIX,historicalpageants.ac.uk
 DOMAIN-SUFFIX,historicbooks.ac.uk
 DOMAIN-SUFFIX,history-uk.ac.uk
 DOMAIN-SUFFIX,history.ac.uk
+DOMAIN-SUFFIX,historylines.net
 DOMAIN-SUFFIX,historyofdota.com
 DOMAIN-SUFFIX,historyofdota.net
 DOMAIN-SUFFIX,historyofdota.org
@@ -17585,6 +17587,7 @@ DOMAIN-SUFFIX,kitts.ac.uk
 DOMAIN-SUFFIX,kiwi.jp
 DOMAIN-SUFFIX,kiwi.kz
 DOMAIN-SUFFIX,kiwibrowser.com
+DOMAIN-SUFFIX,kiwix.org
 DOMAIN-SUFFIX,kiyobank.co.jp
 DOMAIN-SUFFIX,kk-whys.co.jp
 DOMAIN-SUFFIX,kk.stream
@@ -19305,6 +19308,7 @@ DOMAIN-SUFFIX,mcdonaldsapps.com
 DOMAIN-SUFFIX,mcdonaldsarabia.com
 DOMAIN-SUFFIX,mcdonaldsparties.co.nz
 DOMAIN-SUFFIX,mcdonaldsparties.com.au
+DOMAIN-SUFFIX,mceindex.com
 DOMAIN-SUFFIX,mcfog.com
 DOMAIN-SUFFIX,mcisco.com
 DOMAIN-SUFFIX,mcls.ac.uk
