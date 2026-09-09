@@ -1,8 +1,8 @@
 # 原始链接：https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list
 # Title: AWAvenue Ads Rule
-# Total lines: 948
+# Total lines: 947
 # Version: 1.7.6-release
-# Update time: 2026-09-08 21:10:07 UTC+8
+# Update time: 2026-09-09 23:12:52 UTC+8
 # Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 # License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
 DOMAIN, 1500020991.vodplayer.wxamedia.com
@@ -702,7 +702,7 @@ DOMAIN, s1.cdn-sg.advlion.com
 DOMAIN, s8t.teads.tv
 DOMAIN, saad.ms.zhangyue.net
 DOMAIN, saas.hpplay.cn
-DOMAIN, safebrowsing.urlsec.gg.com
+DOMAIN, safebrowsing.urlsec.qq.com
 DOMAIN, samsung-com.112.2o7.net
 DOMAIN, samsungads.com
 DOMAIN, saxysec.com
@@ -952,4 +952,3 @@ DOMAIN-KEYWORD, -ad.sm.cn
 DOMAIN-KEYWORD, -ad.video.yximgs.com
 DOMAIN-KEYWORD, -ad.wtzw.com
 DOMAIN-KEYWORD, -be-pack-sign.pglstatp-toutiao.com
-DOMAIN-KEYWORD, -normal.zijieapi.com
