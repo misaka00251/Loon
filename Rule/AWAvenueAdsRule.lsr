@@ -1,8 +1,8 @@
 # 原始链接：https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list
 # Title: AWAvenue Ads Rule
-# Total lines: 963
-# Version: 1.7.6-release
-# Update time: 2026-09-20 20:30:39 UTC+8
+# Total lines: 965
+# Version: 1.7.8-release
+# Update time: 2026-09-21 21:56:59 UTC+8
 # Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 # License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
 DOMAIN, 1500020991.vodplayer.wxamedia.com
@@ -665,6 +665,8 @@ DOMAIN, pcm-img.zhls.qq.com
 DOMAIN, pgdt.gtimg.cn
 DOMAIN, pgdt.ugdtimg.com
 DOMAIN, pglstatp-toutiao.com
+DOMAIN, pica-a-display.diwodiwo.xyz
+DOMAIN, pica-ad-api.diwodiwo.xyz
 DOMAIN, pig.pupuapi.com
 DOMAIN, pin.hpplay.cn
 DOMAIN, pixon.ads-pixiv.net
